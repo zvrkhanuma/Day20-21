@@ -1,0 +1,38 @@
+.keyboard {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    width: auto;
+    position: fixed;
+    left: 10;
+    bottom: 0;
+    flex-wrap: wrap;
+}
+button {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    height: 45px;
+    width: 6%;
+    max-width: 9%;
+    margin: 3px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.05rem;
+    outline: none;
+}
+.key_wide{
+    width: 12%;
+    align-self: flex-end;
+}
+.key_wide2 {
+    width: 24%;
+}
+.key_wide3 {
+    width: 36%;
+}
+textarea {
+    width: 100%;
+    padding-top: 30%;
+}
